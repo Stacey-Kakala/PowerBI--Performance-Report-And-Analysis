@@ -4,11 +4,17 @@ A dynamic PowerBI dashboard analyzing sales performance and profitability for Pl
 
 ## Table of Contents
 a. Problem Statement
+
 b. Project Overview & Tools
+
 c. Importing Process
-d. Data Modeling & DAX Measures  
+
+d. Data Modeling & DAX Measures
+
 e. Visualizations
+
 f. Key Insights
+
 g. Strategic Recommendations
 
 ## a. Problem Statement
