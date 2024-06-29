@@ -2,35 +2,31 @@
 A dynamic PowerBI dashboard analyzing sales performance and profitability for PlantCo.
 
 ## Table of Contents
-
 a. Problem Statement
 b. Project Overview & Tools
-c. ETL Process
+c. Importing Process
 d. Data Modeling & DAX Measures  
 e. Visualizations
 f. Key Insights
 g. Strategic Recommendations
 
 ## a. Problem Statement
-
 PlantCo needs a comprehensive view of their sales performance, comparing current year-to-date metrics against prior year, with the ability to analyze trends by product, country, and account profitability.
 
 ## b. Project Overview (5Ws) & Tools
-
 5Ws:
-WHAT: An interactive PowerBI dashboard to analyze PlantCo's sales performance and profitability
-WHY: To identify growth opportunities, underperforming areas, and segment accounts by profitability
-HOW: Using PowerBI for ETL, data modeling, and visualization
-WHERE: Data sourced from Excel files; visualized in PowerBI
-WHO: For PlantCo management to make data-driven decisions on sales strategies
+- WHAT: An interactive PowerBI dashboard to analyze PlantCo's sales performance and profitability
+- WHY: To identify growth opportunities, underperforming areas, and segment accounts by profitability
+- HOW: Using PowerBI for ETL, data modeling, and visualization
+- WHERE: Data sourced from Excel files; visualized in PowerBI
+- WHO: For PlantCo management to make data-driven decisions on sales strategies
 
 Tools used:
 - Excel (source data)
 - PowerBI Desktop (ETL, modeling, visualization)
 - DAX (for measures and calculated columns)
-
+- 
 ## c. Importing Process
-
 1. Imported Excel files into PowerBI
 2. Performed minor data cleansing in Power Query:
    - Renamed tables (e.g., "Plant Fact" to "Fact Sales")
@@ -39,7 +35,6 @@ Tools used:
 3. Created a date dimension table using DAX
 
 ## d. Data Modeling & DAX Measures
-
 1. Created relationships between fact and dimension tables
 2. Developed key measures:
    - Base measures (Sales, Quantity, Gross Profit)
@@ -50,7 +45,6 @@ Tools used:
 3. Implemented switch measures for dynamic metric selection
 
 ## e. Visualizations
-
 1. Header metrics using new card visuals with conditional formatting
 2. Treemap showing bottom 10 countries by YTD vs PYTD performance
 3. Waterfall chart displaying YTD vs PYTD breakdown by month and product
@@ -59,7 +53,6 @@ Tools used:
 6. Slicers for year and metric selection
 
 ## f. Key Insights
-
 1. Year-over-Year Performance:
 - Significant decline in March and April 2024 compared to prior year
 - February 2024 showed exceptional performance, exceeding prior year metrics
