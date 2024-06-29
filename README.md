@@ -26,7 +26,7 @@ Tools used:
 - Excel (source data)
 - PowerBI Desktop (ETL, modeling, visualization)
 - DAX (for measures and calculated columns)
-- 
+
 ## c. Importing Process
 1. Imported Excel files into PowerBI
 2. Performed minor data cleansing in Power Query:
