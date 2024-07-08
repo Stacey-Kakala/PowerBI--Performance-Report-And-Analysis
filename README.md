@@ -1,5 +1,5 @@
 # Performance Report & Analysis - PowerBI
-## --- Project Documentation ---
+# Project Documentation
 A dynamic PowerBI dashboard analyzing sales performance and profitability for PlantCo.
 
 ## Table of Contents
